@@ -1,0 +1,80 @@
+<div class="row navigationBarStyle">
+
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style="background-color:#e7e7e7;border-color: #e4e1df;">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logoHedder" >
+                    <img src="static/public/images/logo.png"style="height: 70px;width: 249px;margin-left: -171px;" alt="">
+
+                </div>
+                <!-- <div class="navbar-brand" href="#"><span><img src="images/lograt-logo.png"style="height: 40px;width: 100px" alt=""></span>
+                     AutoSuport</div>-->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="uib-collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right" >
+                    <li class="containerWord topBotomBordersOut">
+                        <a href="/"  class="nivFront" role="button" style="background-color: #e7e7e7;color: #040404;">Home</a>
+                    </li>
+                    <li class="containerWord topBotomBordersOut">
+                        <a href="/customerLoyality"  class="nivFront" role="button" style="background-color: #e7e7e7;color: #040404;">Customer Loyality Analysis</a>
+                    </li>
+                    <li class="containerWord topBotomBordersOut">
+                        <a href="#!/roadSideAssistances"  style="background-color: #e7e7e7;color: #040404;" class="nivFront" role="button">Review Opinion Analysis</a>
+                    </li>
+                    <li class="containerWord topBotomBordersOut">
+                        <a href="#!/memberShip" class="nivFront" style="background-color: #e7e7e7;color: #040404;"  role="button" >pain point Analysis</a>
+                        <!--<a href="/warrentyManagment.html" class="nivFront"  role="button" data-toggle="modal" data-target=".bs-example-modal-lg" >Services</a>-->
+                    </li>
+
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</div>
+<!--Log in section-->
+<div class="modal fade bs-login-modal-lg login-modalsection" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class=" login-name"><p>Login to AUSS</p></div>
+            <div class=" margin-tabs row">
+                <div ><input type="text" class="form-control text-align-center inputdata-height" aria-label="UserName" placeholder="User Name" required>
+                </div>
+            </div>
+            <div class=" margin-tabs row">
+                <div ><input type="text" class="form-control text-align-center inputdata-height" aria-label="password" placeholder="Password" required></div>
+            </div>
+            <div class="col-xs-12 text-align-center">
+                <div class="col-xs-12 col-sm-6"><input type="checkbox" > &nbsp;Remember Me ?</div>
+                <div class="col-xs-12 col-sm-6"><a onclick="myFunction()">Forgot password ?</a></div>
+            </div>
+            <div class=" margin-tabs row ">
+                <div >
+                    <input type="submit" class=" btn btn-primary form-control text-align-center inputdata-height" aria-label="continue"
+                           value="Continue" onclick="myFunction()">
+                </div>
+            </div>
+            <hr/>
+            <div class="col-xs-12 text-align-center">Not a Member Yet ? &nbsp; &nbsp;<a onclick="myFunction()">Join Now</a> </div>
+        </div>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        alert("The site is Upgrading soon");
+    }
+</script>
