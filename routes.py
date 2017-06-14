@@ -32,28 +32,13 @@ def init_api_routes(app):
         app.add_url_rule('/api', 'list_routes', list_routes, methods=['GET'], defaults={'app': app})
 
 
-def page_about():
-    if current_app:
-        flash('The application was loaded', 'info')
-        flash('The secret key is {0}'.format(current_app.config['SECRET_KEY']), 'info')
-
-    return render_template('about.html', selected_menu_item="about")
 
 
-def page_project():
-    return render_template('project.html', selected_menu_item="project")
 
-
-def page_experience():
-    return render_template('experience.html', selected_menu_item="experience")
-
-
-def page_candidate():
-    current_candidates = candidate(serialize=False)
-    return render_template('candidate.html', selected_menu_item="candidate", candidates=current_candidates)
 
 
 def page_index():
+
     return render_template('index.html', selected_menu_item="index")
 
 
@@ -63,12 +48,11 @@ def crash_server():
 
 def init_website_routes(app):
     if app:
-        app.add_url_rule('/crash', 'crash_server', crash_server, methods=['GET'])
-        app.add_url_rule('/about', 'page_about', page_about, methods=['GET'])
-        app.add_url_rule('/project', 'page_project', page_project, methods=['GET'])
-        app.add_url_rule('/candidate', 'page_candidate', page_candidate, methods=['GET'])
-        app.add_url_rule('/experience', 'page_experience', page_experience, methods=['GET'])
-        app.add_url_rule('/', 'page_index', page_index, methods=['GET'])
+       app.add_url_rule('/', 'page_index', page_index, methods=['GET'])
+       app.add_url_rule('/crash', 'crash_server', crash_server, methods=['GET'])
+
+
+
 
 
 def handle_error_404(error):

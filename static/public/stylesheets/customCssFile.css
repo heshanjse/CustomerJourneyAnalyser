@@ -1,0 +1,1478 @@
+.site-footer-links {
+    margin: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-footer-links li {
+    display: inline;
+    padding: 0 5px 0 5px;
+    align-content: center;
+    font-size: small;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.site-footer {
+    position: relative;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+    border-top: 1px solid #eee;
+}
+
+.subfooter {
+    color: #FFF;
+    background: #73767A;
+    padding: 24px 0 0 0;
+}
+
+.navbar-default {
+    background-color: rgb(237, 237, 237);
+    border-color: rgb(237, 237, 237);
+}
+
+.rowcall {
+    margin-top: 10%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.snippet, .source-panel {
+    /* background: #ededed; */
+    position: relative;
+    clear: both;
+    margin-top: 20px;
+}
+
+#footerRights {
+    background: #ffffff;
+    color: #A4AAB3;
+/ / border-top: 1 px solid #adadad;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-top: 22px;
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 17px;
+}
+
+.iconRounded:hover, .color1 .iconRounded:hover, .iconLinks a:hover i, .boxIcon a:hover i {
+    background-color: #46b0c3;
+    color: #fff;
+    border-color: #46b0c3;
+}
+
+.iconRounded {
+    color: #46b0c3;
+    border: 1px solid #46b0c3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul.socialNetwork li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0.8em;
+}
+
+.site-footer-links li a {
+    color: #777;
+
+}
+
+
+
+ul.socialNetwork  {
+
+    display: block;
+    margin-bottom: 0;
+}
+
+ul.socialNetwork li i {
+    padding: 10px 12px;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    border-color: #1abbff;
+
+}
+
+.footerWidget h4 {
+    margin-top: 0px;
+
+}
+
+.rounddiv {
+    padding: 1px 20px;
+    display: inline-block;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 10%;
+
+}
+
+.rounddivol {
+    color: #fff;
+    padding: 8px 15px;
+    display: inline-block;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #112288;
+    /*-webkit-box-shadow: 0px 0px 2px #201988;*/
+    /*box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);
+    border-color: #1b31ff;*/
+}
+
+@media screen and (max-width: 450px) and (min-width: 0px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+
+
+    .logoHedder {
+        padding-left: 53px !important;
+        margin-top: -8px !important;
+        font-size: 21px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -59px;
+        margin-bottom: -53px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1% !important;
+    }
+    .logoHedder > h3{
+        font-size: 21px;
+    }
+    .brand_nav{
+        font-size: 30px;
+        margin-top: 2px;
+        color: #25b7d3;
+    }
+    .brand-image{
+        height: 100px;
+        width: 100px !important;
+        margin-top: 20px;
+    }
+    .mainmargin-top{
+        margin-top:32px;
+    }
+    .main_nav_left{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        margin-top: 98px;
+        margin-left: 5px;
+        font-size: 27px;
+    }
+        .main_nav_right{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        font-size: 27px;
+        margin-top: 98px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        text-align: center;
+        filter: alpha(opacity=50);
+        opacity: 1;
+    }
+    .maxHeightOfImage{
+            max-height: 214px;
+        }
+    .support-alignment{
+        padding-left: 42px !important;
+
+    }
+    .article-height1 {
+        height: 413px;
+    }
+
+    .article-height2 {
+        height: 413px;
+    }
+
+    .article-height3 {
+        height: 413px;
+    }
+
+    .icon-property1 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property2 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property3 {
+        margin-left: 15px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+
+    .articele-3-overflow {
+        height: 118px;
+        overflow: auto;
+    }
+    .car-data{
+        padding: 1%;
+        height: 173px;
+    }
+    .fadeInLeft img{
+        max-width: 68% ;
+        display: block;
+        margin: auto;
+    }
+    .modal-dialog .modal-content{
+        width:106%;
+        margin-top: 115px;
+        height: 410px;
+    }
+    .bhoechie-tab-content article{
+        height: 200px;
+        width: 225px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 96% !important;
+        height: 193px;
+        display: block;
+        margin-top: 4px !important;
+        margin-left: 4px !important;
+    }
+    .service-content-boundry {
+        padding-top: 5%;
+        padding-left: 0%;
+        padding-right: 3%;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 570px) and (min-width: 450px) {
+
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 53px !important;
+        margin-top: -8px !important;
+        font-size: 21px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -59px;
+        margin-bottom: -53px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1% !important;
+    }
+    .logoHedder > h3{
+        font-size: 21px;
+    }
+    .brand_nav{
+        font-size: 30px;
+        margin-top: 69px;
+        color: #25b7d3;
+    }
+    .brand-image{
+        height: 100px;
+        width: 100px !important;
+        margin-top: 20px;
+    }
+    .mainmargin-top{
+        margin-top:32px;
+    }
+    .main_nav_left{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        margin-top: 98px;
+        margin-left: 5px;
+        font-size: 27px;
+    }
+    .main_nav_right{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        font-size: 27px;
+        margin-top: 98px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        text-align: center;
+        filter: alpha(opacity=50);
+        opacity: 1;
+    }
+    .maxHeightOfImage{
+        max-height: 203px !important;
+    }
+    .support-alignment{
+        padding-left: 42px !important;
+
+    }
+    .article-height1 {
+        height: 408px;
+    }
+
+    .article-height2 {
+        height: 408px;
+    }
+
+    .article-height3 {
+        height: 408px;
+    }
+
+    .icon-property1 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property2 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property3 {
+        margin-left: 15px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+
+    .articele-3-overflow {
+        height: 118px;
+        overflow: auto;
+    }
+    .car-data{
+        padding: 1%;
+        height: 130px;
+    }
+    .cardimage-resp{
+        width: 690px;
+        height: 232px;
+    }
+    .fadeInLeft img{
+        max-width: 68% ;
+        display: block;
+        margin: auto;
+    }
+    .modal-dialog .modal-content{
+        width:104%;
+        margin-top: 115px;
+        height: 410px;
+    }
+    .bhoechie-tab-content article{
+        height: 200px;
+        width: 250px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 96%;
+        height: 193px;
+        display: block;
+        margin-top: 4px;
+    }
+    .service-content-boundry {
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 10px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 96% !important;
+        height: 193px;
+        display: block;
+        margin-top: 4px !important;
+        margin-left: 4px !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 570px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 67px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -62px;
+        margin-bottom: -102px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+    .brand_nav{
+        font-size: 30px;
+        margin-top: 69px;
+        color: #25b7d3;
+    }
+    .brand-image{
+        height: 100px;
+        width: 100px !important;
+        margin-top: 20px;
+    }
+    .main_nav_left{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        margin-top: 173px;
+        margin-left: 5px;
+        font-size: 37px;
+    }
+    .main_nav_right{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        font-size: 37px;
+        margin-top: 173px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 5%;
+        text-align: center;
+        filter: alpha(opacity=50);
+        opacity: 1;
+    }
+    .maxHeightOfImage{
+        max-height: 400px !important;
+    }
+    .mainimage-height {
+        height: 658px!important;
+    }
+    .mainmargin-top{
+        margin-top:31px;
+    }
+    .support-alignment{
+        padding-left: 42px !important;
+
+    }
+    .article-height1 {
+        height: 455px;
+    }
+
+    .article-height2 {
+        height: 455px;
+    }
+
+    .article-height3 {
+        height: 455px;
+    }
+
+    .icon-property1 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property2 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property3 {
+        margin-left: 15px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+
+    .articele-3-overflow {
+        height: 118px;
+        overflow: auto;
+    }
+    .car-data{
+        padding-left: 17px;
+        padding-right: 17px;
+        height: 162px;
+    }
+    .cardimage-resp{
+        width: 690px;
+        height: 232px;
+    }
+    .fadeInLeft img{
+        max-width: 45%;
+        display: block;
+        margin: auto;
+    }
+    .modal-dialog .modal-content{
+        width: 80%;
+        margin-top: 115px;
+        margin-left: 10%;
+        height: 405px;
+    }
+    .bhoechie-tab-content article{
+        height: 200px;
+        width: 250px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 96% !important;
+        height: 193px;
+        display: block;
+        margin-top: 4px !important;
+        margin-left: 4px !important;
+    }
+
+
+
+
+}
+@media screen and (max-width: 990px) and (min-width: 768px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 75px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl{
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+    .brand_nav{
+        font-size: 30px;
+        margin-top: 47px;
+        color: #25b7d3;
+    }
+    .brand-image{
+        height: 100px;
+        width: 100px !important;
+        margin-top: 20px;
+    }
+    .mainmargin-top{
+        margin-top:42px;
+    }
+    .main_nav_left{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        margin-top: 173px;
+        margin-left: 5px;
+        font-size: 37px;
+    }
+    .main_nav_right{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        font-size: 37px;
+        margin-top: 173px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 5%;
+        text-align: center;
+        filter: alpha(opacity=50);
+        opacity: 1;
+    }
+    .maxHeightOfImage{
+        max-height: 400px !important;
+    }
+    .mainimage-height {
+        height: 658px!important;
+    }
+    .support-alignment{
+        padding-left: 42px !important;
+
+    }
+    .article-height1 {
+        height: 353px;
+    }
+
+    .article-height2 {
+        height: 353px;
+    }
+
+    .article-height3 {
+        height: 353px;
+    }
+
+    .icon-property1 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property2 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property3 {
+        margin-left: 15px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+
+    .articele-3-overflow {
+        height: 118px;
+        overflow: auto;
+    }
+    .car-data{
+        padding-left: 17px;
+        padding-right: 17px;
+        height: 133px;
+    }
+    .fadeInLeft img{
+        max-width: 45%;
+        display: block;
+        margin: auto;
+    }
+    .modal-dialog .modal-content{
+        width:80%;
+        margin-left: 10%;
+        margin-top: 115px;
+        margin-right: 10%;
+        height: 390px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 96% !important;
+        height: 193px;
+        display: block;
+        margin-top: 4px !important;
+        margin-left: 4px !important;
+    }
+
+}
+@media screen and (max-width: 1400px) and (min-width: 990px) {
+
+    .dispalyMachic {
+        display: inherit;
+    }
+    .logoHedder {
+       padding-left: 70px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl{
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+    .brand_nav{
+        font-size: 30px;
+        margin-top: 63px;
+        color: #25b7d3;
+    }
+    .brand-image{
+        height: 125px;
+        width: 125px !important;
+        margin-top: 20px;
+    }
+    .mainmargin-top{
+        margin-top:43px;
+    }
+    .main_nav_left{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 5px;
+        font-size: 43px;
+    }
+    .main_nav_right{
+        color:#25b7d3;
+        z-index: 4;
+        position: absolute;
+        font-size: 43px;
+        margin-top: 200px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 5%;
+        text-align: center;
+        filter: alpha(opacity=50);
+        opacity: 1;
+    }
+    .maxHeightOfImage{
+        max-height: 400px !important;
+    }
+    .float-right-address {
+        float: left;
+    }
+    .support-alignment{
+        padding-left: 17px !important;
+        padding-left: 38px;
+    }
+    .article-height1 {
+        height: 325px;
+    }
+
+    .article-height2 {
+        height: 325px;
+    }
+
+    .article-height3 {
+        height: 325px;
+    }
+
+    .icon-property1 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property2 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property3 {
+        margin-left: 15px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+
+    .articele-3-overflow {
+        height: 118px;
+        overflow: auto;
+    }
+    .car-data{
+        padding-left: 17px;
+        padding-right: 17px;
+        height: 170px;
+    }
+    .fadeInLeft img{
+        max-width: 45%;
+        display: block;
+        margin: auto;
+    }
+    .modal-dialog .modal-content{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 115px;
+        margin-right: 10%;
+        height: 390px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 96% !important;
+        height: 193px;
+        display: block;
+        margin-top: 4px !important;
+        margin-left: 4px !important;
+    }
+
+}
+@media screen and (max-width: 2500px) and (min-width: 1400  px) {
+    .dispalyMachic {
+        display: inherit;
+    }
+
+    .logoHedder {
+        padding-left: 32px !important;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .logoHedder > h3 {
+        font-size: 24px;
+    }
+
+    .brand_nav {
+        font-size: 30px;
+        margin-top: 63px;
+        color: #25b7d3;
+    }
+
+    .brand-image {
+        height: 125px;
+        width: 125px !important;
+        margin-top: 20px;
+    }
+
+    .mainmargin-top {
+        margin-top: 43px;
+    }
+
+    .main_nav_left {
+        color: #25b7d3;
+        z-index: 4;
+        position: absolute;
+        margin-top: 248px;
+        margin-left: 5px;
+        font-size: 43px;
+    }
+
+    .main_nav_right {
+        color: #25b7d3;
+        z-index: 4;
+        position: absolute;
+        font-size: 43px;
+        margin-top: 248px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 5%;
+        text-align: center;
+        filter: alpha(opacity=50);
+        opacity: 1;
+    }
+
+    .maxHeightOfImage {
+        max-height: 540px !important;
+    }
+
+    .support-alignment {
+        padding-left: 42px !important;
+
+    }
+
+    .article-height1 {
+        height: 360px;
+    }
+
+    .article-height2 {
+        height: 360px;
+    }
+
+    .article-height3 {
+        height: 360px;
+    }
+
+    .icon-property1 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property2 {
+        margin-left: 15px;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+    .icon-property3 {
+        margin-left: 15px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+
+    .articele-3-overflow {
+        height: 118px;
+        overflow: auto;
+    }
+    .car-data{
+        padding-left: 17px;
+        padding-right: 17px;
+        height: 162px;
+    }
+    .fadeInLeft img{
+        max-width: 45%;
+        display: block;
+        margin: auto;
+    }
+    .modal-dialog .modal-content{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 115px;
+        margin-right: 10%;
+        height: 390px;
+    }
+    .bhoechie-tab-content img{
+        max-width: 97% !important;
+        height: 193px;
+        display: block;
+        margin-top: 4px !important;
+        margin-left: 4px !important;
+    }
+    .bhoechie-tab-content article{
+        height: 200px;
+        width: 91%;
+
+
+    }
+
+
+
+}
+
+
+
+.rounddi24 {
+    color: #60fff7;
+    padding: 8px 13px;
+    display: inline-block;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #112288;
+    -webkit-box-shadow: 0px 0px 2px #201988;
+    box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);
+    border-color: #1b31ff;
+}
+
+.h-center {
+    text-align: left;
+}
+
+.imagecss {
+
+    margin-left: 10%;
+
+}
+
+.divstyle {
+}
+
+.glyphicon {
+    margin-right: 10px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-body table tr td {
+    padding-left: 15px
+}
+
+.panel-body .table {
+    margin-bottom: 0px;
+}
+
+.aboutus-margin {
+    height: 300px !important;
+}
+
+.icon-marginaboutus {
+    margin-top: -7px;
+}
+
+.font-face {
+    font-family: 'Open Sans';
+}
+
+
+/*add for nav bar*/
+
+.navbar-brand {
+
+    background-color: rgb(237, 237, 237);
+    z-index: 10;
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    margin-left: 4%;
+    border-radius: 50%;
+    margin-top: -29px;
+
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 5!important;
+}
+
+/*************************
+EXAMPLES 2-7 BELOW
+**************************/
+
+/* EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+
+.navbar-toggle {
+    z-index: 1;
+}
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    z-index: 9999;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.nivFront {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+
+}
+
+.nivFront:hover {
+    background-color: red;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    color: #68abff;
+}
+
+.navbar-default .navbar-nav > li > a :hover {
+    background-color: red;
+}
+
+.circleBase {
+    border-radius: 50%;
+
+    z-index: 999999;
+}
+
+.type1 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+}
+
+.navigationBarStyle {
+    background-color: rgb(237, 237, 237);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: -4px;
+}
+
+li.containerWord {
+    font-family: Raleway;
+    margin: 0 auto;
+    padding: 0em 0em;
+    text-align: center;
+}
+
+li.containerWord a {
+    color: #FFF;
+    text-decoration: blink;
+    font: 12px inherit;
+    margin: 0px 10px;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: blue;
+    content: "";
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+li.topBotomBordersOut a:before {
+    top: 10px;
+    transform: translateY(10px);
+}
+
+li.topBotomBordersOut a:after {
+    bottom: 10px;
+    transform: translateY(-10px);
+}
+
+li.topBotomBordersOut a:hover:before,
+li.topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+li.highlightTextOut a:before,
+li.highlightTextIn a:before {
+    position: absolute;
+    color: red;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+li.highlightTextOut a:hover:before,
+li.highlightTextIn a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Highlight text in  */
+li.highlightTextIn a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+li.highlightTextIn a:before {
+    transform: scale(1.2);
+}
+
+li.pullRightLeft a:before, li.pullRightLeft a:after {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 1px;
+    content: '';
+    background: black;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+li.pullRightLeft a:before {
+    left: 0px;
+}
+
+li.pullRightLeft a:after {
+    right: 0px;
+}
+
+li.pullRightLeft a:hover:before, li.pullRightLeft a:hover:after {
+    width: 100%;
+}
+
+.logoHedder {
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.white-border {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 2px white !important;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: white !important;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px !important;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+.aboutus_icongap{
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.float-right{
+    float: left;
+}
+.float-righticon{
+    width: 25px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.carousel_control{
+    margin-top: 174px;
+    color:#25b7d3;
+}
+.carousel_image_height{
+    max-height: 500px;
+    width: 100%;
+}
+.brand_background{
+    background-color: #fcfcfc;
+}
+.paraleximage-topmargin{
+    margin-top: 88px;
+}
+.description-property{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin-top: 16px;
+    margin-left: 78px;
+    text-align: center;
+}
+.info-card-service{
+    padding: 2%;
+}
+.card_bottom{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: .25s box-shadow;
+    transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-inverse .card-img-overlay {
+    background-color: rgba(51, 51, 51, 0.85);
+    border-color: rgba(51, 51, 51, 0.85);
+}
+.card-styles{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.buttonProperty .btn {
+    background-color: #25b7d3;
+    border-color: #25b7d3;
+}
+.fadeInLeft img{
+ max-width: 45%;
+    display: block;
+    margin: auto;
+}
+
+/*login*/
+
+.login-name{
+    height: 60px;
+    background-color: #25b7d3;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.login-name p{
+    padding-top: 10px;
+}
+.login-main{
+    height: 400px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.custom-class {
+    width: 50%;
+}
+
+.content{
+    text-align: center;
+    font-family: 'Open Sans';
+
+}
+.content .form-control{
+    height: 51px;;
+}
+.text-align-center{
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.text-align-Left{
+    text-align: left;
+    font-family: 'Open Sans';
+}
+.margin-tabs{
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.element-color{
+    color: #a7a4a4;
+    border-color: #d2cccc;
+    border-radius: 3px;
+}
+.margin-tabs .btn{
+   background-color:  #25b7d3;
+    margin-top: 10px;
+    border-color: #25b7d3;
+}
+.inputdata-height{
+    height: 50px;
+}
+
+/* home details*/
+
+.details-section .nav-tabs{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 60px;
+    padding: 10px;
+    background-color: #25b7d3;
+}
+.all-servicedetail .modal-dialog .modal-content {
+    width:100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    height:600px;
+    margin-top: 70px;
+}
+
+.details-section img{
+    max-width: 94% !important;
+    display: block;
+    margin-top: 10px;
+    margin-right: 11px;
+    margin-left: 10px;
+    height: 340px;
+}
+.detail-list{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #25b7d3;
+}
+.details-fontsize{
+    font-size: 18px;
+}
+.details-section .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: white !important;
+    cursor: default;
+    border: 1px solid #25b7d3 !important;
+    border-bottom-color: transparent;
+    background-color: transparent !important;
+}
+
+/*  end*/
+
+.description-main{
+    margin-top: 63px;
+}
+.description-main img{
+    width: 114%;
+    height: 348px;
+    margin-left: -30px;
+
+}
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+.detail-background{
+    background-color: #fcfcfc;
+}
+.service-data{
+    background-color: white;
+    margin-bottom: 60px;
+    border: 1px solid  #d2cccc;
+}
+.description-main-data{
+    padding: 28px;
+}
+.image-data {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+.bhoechie-tab-content article{
+    height: 200px;
+}
+/*.bhoechie-tab-content img{*/
+    /*max-width: 96%;*/
+    /*height: 193px;*/
+    /*display: block;*/
+    /*margin-top: 4px;*/
+    /*margin-left: 4px;*/
+/*}*/
+.text-justify{
+    text-align: justify;;
+}
+
+
+.padding-top-divdescription{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bhoechie-tab-content{
+    margin-top: 30px;
+    padding-right: 10px;
+}
+.border-round-form{
+    border: 2px solid #cdcdcd;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+}
+.formSpace{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.formHedder-color{
+    color: rgb(244, 132, 0);
+}
+.formatting-details i{
+margin-bottom: 10px;
+}
+.termscondition-space{
+    margin-left: 10px;
+}
+.termsncon-headerfontsize{
+    font-size: 22px;
+}
