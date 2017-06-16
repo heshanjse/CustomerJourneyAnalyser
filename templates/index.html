@@ -35,8 +35,8 @@
     <script src="../static/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
     <script src="../static/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="../static/bower_components/wow/dist/wow.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"
-            type="text/javascript"></script>
+    <script src="../static/bower_components/d3/d3.min.js"></script>
+    <script src="../static/bower_components/d3/d3.js"></script>
 
     <!--core-->
 
@@ -49,7 +49,8 @@
 
 <!-- controller-->
      <script lang="text/javascript" src="{{url_for('static', filename='home/home.controller.js')}}"></script>
-
+     <script lang="text/javascript" src="{{url_for('static', filename='painPointAnalysis/painpointController.js')}}"></script>
+     <script lang="text/javascript" src="{{url_for('static', filename='painPointAnalysis/sentimentGraph.js')}}"></script>
 
 
 
