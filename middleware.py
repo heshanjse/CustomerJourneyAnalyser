@@ -16,6 +16,55 @@ def candidate(serialize = True):
     else:
         return candidates
 
+def sentimentreviw():
+    review = request.request.form["review"]
+    print review
+
+   # sentvalue = DATA_PROVIDER.get_sentimentreviw(review['review'])
+    return  jsonify({
+
+       # "id": sentvalue
+        "review"
+    })
+
+
+
+
+def sentiment():
+    #review = "ok"
+    review = DATA_PROVIDER.get_review()
+    return review
+
+def sentimentgraph():
+    #review = "ok"
+    review = DATA_PROVIDER.get_sentimentprapgdata()
+    return  jsonify({
+        "id": review
+    })
+
+
+def painpointgraph():
+    #review = "ok"
+    review = DATA_PROVIDER.get_painpointgraphdata()
+    return jsonify({
+        "id": review
+    })
+
+
+def ployaltygraph():
+    #review = "ok"
+    review = DATA_PROVIDER.get_ployaltygraphdata()
+    return jsonify({
+        "id": review
+    })
+
+def setpainpoint():
+    #review = "ok"
+    resoponce = DATA_PROVIDER.set_painpoint()
+    return jsonify({
+        "id": resoponce
+    })
+
 
 def candidate_by_id(id):
     current_candidate = DATA_PROVIDER.get_candidate(id)
@@ -55,13 +104,13 @@ def random_projects(nr_of_items):
 
 
 def add_project():
-    project_name = request.form["name"]
-    project_description = request.form["description"]
-
-    new_project_id = DATA_PROVIDER.add_project(project_name, project_description)
+    # project_name = request.form["name"]
+    # project_description = request.form["description"]
+    #
+    # new_project_id = DATA_PROVIDER.add_project(project_name, project_description)
 
     return jsonify({
-        "id": new_project_id
+        "id": "ok"
     })
 
 

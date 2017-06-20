@@ -19,6 +19,11 @@ function routes($routeProvider,$locationProvider) {
             controller: 'HomeController',
             controllerAs: 'AS'
 
+        }).when('/painpoint', {
+            templateUrl: 'static/painPointAnalysis/painpointanalysis.html',
+            controller: 'painpointController',
+            controllerAs: 'AS'
+
         })
         .otherwise('/');
   $locationProvider.html5Mode(true);

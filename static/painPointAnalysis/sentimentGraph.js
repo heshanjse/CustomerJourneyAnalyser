@@ -3,14 +3,11 @@
  */
 'use strict';
 
+function sentimentgraph(datas){
+d3.select("#linegraph").select("svg").remove();
 
 
 
-function dpage_download(){
-d3.select("svg").remove();
-d3.select("svg").remove();
-
-//console.log(data)
   console.log("this is the graph");
 // Set the dimensions of the canvas / graph
 var margin = {top: 30, right: 20, bottom:80, left: 80},
@@ -52,37 +49,37 @@ var svg = d3.select("#linegraph")
 
 // Get the data
 // d3.csv("stocks.csv", function(error, data) {
-  var data = [{
-      "product_id" : "MSFT",
-    "date" : "05 Apr 2006",
-    "download" : 39,
-
-  },{
- "product_id" : "MSFT",
-    "date" : "09 May 2006",
-    "download" : 32,
-  },{
-      "product_id" : "MSFT",
-    "date" : "30 May 2006",
-    "download" : 23,
-
-  }
-  ,
-  {
-      "product_id" : "ABC",
-    "date" : "02 Apr 2006",
-    "download" : 19,
-
-  },{
- "product_id" : "ABC",
-    "date" : "09 May 2006",
-    "download" : 22,
-  },{
-      "product_id" : "ABC",
-    "date" : "30 May 2006",
-    "download" : 43,
-
-  }
+//   var data = [{
+//       "product_id" : "MSFT",
+//     "date" : "05 Apr 2006",
+//     "download" : 39,
+//
+//   },{
+//  "product_id" : "MSFT",
+//     "date" : "09 May 2006",
+//     "download" : 32,
+//   },{
+//       "product_id" : "MSFT",
+//     "date" : "30 May 2006",
+//     "download" : 23,
+//
+//   }
+//   ,
+//   {
+//       "product_id" : "ABC",
+//     "date" : "02 Apr 2006",
+//     "download" : 19,
+//
+//   },{
+//  "product_id" : "ABC",
+//     "date" : "09 May 2006",
+//     "download" : 22,
+//   },{
+//       "product_id" : "ABC",
+//     "date" : "30 May 2006",
+//     "download" : 43,
+//
+//   }
  //  ,
  //  {
  //      "product_id" : "ABD",
@@ -132,8 +129,9 @@ var svg = d3.select("#linegraph")
  //
  //  }
 
-  ];
-
+ // ];
+    var data = datas;
+    console.log(data)
     data.forEach(function(d) {
 		//d.downloaddate = parseDate(d.downloaddate);
 		d.downloaddate = new Date(d.date);

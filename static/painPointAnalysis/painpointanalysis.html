@@ -16,27 +16,27 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bhoechie-tab-container">
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bhoechie-tab-menu">
                     <div class="list-group">
-                        <a href="#" class="list-group-item active  textAlimet">
-                            <h5> Warranty Management Scheme </h5>
-                        </a>
-                        <a href="#" class="list-group-item ">
+<!--                      <a href="#" class="list-group-item active  textAlimet">#}
+                          <h5> Warranty Management Scheme </h5>#}
+                       </a> -->
+                        <a href="#" class="list-group-item active ">
                             <h5>sentiment analysis </h5>
                         </a>
                         <a href="#" class="list-group-item ">
-                            <h5>Technical and Garage </h5>
+                            <h5>Product pain point</h5>
                         </a>
                         <a href="#" class="list-group-item ">
-                            <h5> Lubricating & Detailing </h5>
+                            <h5>Product Loyalty</h5>
                         </a>
                         <a href="#" class="list-group-item ">
-                            <h5>Preventive and history records</h5>
+                            <h5>Test one review</h5>
                         </a>
 
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 bhoechie-tab service-content-boundry">
 
-                    <!-- flight section -->
+                    <!-- flight section
                     <div class="bhoechie-tab-content active">
                         <div class="col-xs-4 col-md-4 col-lg-4">
                             <article class="card animated ">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <!-- train section -->
-                    <div class="bhoechie-tab-content text-justify" style="margin-bottom: 20px">
+                    <div class="bhoechie-tab-content active text-justify" style="margin-bottom: 20px">
 
 
                         <h3><font color="#f48400">Sentiment Analysis</font></h3>
@@ -64,7 +64,7 @@
 
 
 
-                        <ul class="icon-list multi-column">
+                        <!--<ul class="icon-list multi-column">
                             <li>24x7 Roadside Assistance</li>
                             <li>Assistance for trouble in wheels</li>
                             <li>On The Spot Repair Service for Minor
@@ -88,24 +88,18 @@
                             <li> Hotels and Accomadations</li>
 
 
-                        </ul>
+                        </ul>-->
 
 
                     </div>
 
                     <!-- hotel search -->
                     <div class="bhoechie-tab-content text-justify" style="margin-bottom: 20px">
-                        Under the warranty management scheme a vehicle fall in trouble due to technical faults Auto
-                        Support Services Pvt Ltd undertake to repair or replace
-                        parttly of completely the compoenents that are covered for warranty. End User is flexible to
-                        select the techincal support service at conveniant location
-                        troughout the island wide state of art techincal service centers.
-                        with modern technologies to give the best solution with best care by profesionals with genuine
-                        parts and accosseries.
-                        <br><br>
+                        <h3><font color="#f48400">Pain point Analysis</font></h3>
+                        <div id="painpoint"></div>
 
-                        <h3><font color="#f48400">Our Services</font></h3>
-                        <ul class="icon-list multi-column">
+
+                        <!--<ul class="icon-list multi-column">
                             <li>Vehicle Scanning & test reports</li>
                             <li>Mechanical Repairs and Maintanance</li>
                             <li>Supply & Replace parts & accosseries
@@ -115,17 +109,13 @@
                             <li>Auto Air Conditinign Services & repairs</li>
 
 
-                        </ul>
+                        </ul>-->
 
                     </div>
                     <div class="bhoechie-tab-content text-justify" style="margin-bottom: 20px">
-                        Periodic auto care services packages offeres to customer to maintain their vehicles though out
-                        our island wide service stations.
-                        Customers can select their prefered sevice packages to suits to the type of the vehicle that
-                        used. Useres are able to use their
-                        services packages accoring to the warranty agreed with the supplier. Auto Support Services Pvt
-                        Ltd assure the quality of materials
-                        equipment and manpower that use to provide the service.
+                        <h3><font color="#f48400">Product Loyalaty analysis</font></h3>
+                        <div id="loyaltypoint"></div>
+                        <!--
                         <br>
                         <ul class="icon-list multi-column">
                             <li>Full Lubricating Services</li>
@@ -139,19 +129,18 @@
 
                         </ul>
                         <br>
-                        <h3><font color="#f48400">Customers are able to select the packages to suit their requirment</font></h3>
-                        <ul class="icon-list multi-column">
-                            <li><font color="BLUE">Silver</font></li>
-                            <li><font color="BLUE">Gold</font></li>
-                            <li><font color="BLUE">Platinum</font>
-                                <Faults></Faults>
-                            </li>
 
 
 
-                        </ul>
+
+                        </ul>-->
                     </div>
-                    <div class="bhoechie-tab-content padding-top-div text-justify">
+                    <div ng-controller='painpointController' class="bhoechie-tab-content padding-top-div text-justify">
+                       <!-- <div ng-controller='painpointController'>-->
+                            <input type='text' ng-model='review'>
+                            <button ng-click="sentimentcheck()">Check</button>
+
+                       <!-- </div>
                         <p>The care and servicing by personnel for the purpose of maintaining equipment in satisfactory
                             operating condition by providing for systematic inspection, detection, and correction of
                             incipient failures either before they occur or before they develop into major
@@ -164,7 +153,7 @@
                             specifically to prevent faults from occurring.Auto Support Services Pvt Ltd , manage and
                             maintain historical records of the vehicles to alert the user to take corrective actions to
                             prevent from possible technical
-                            faults and leave the operator from frustration.</p>
+                            faults and leave the operator from frustration.</p>-->
                     </div>
 
                 </div>
@@ -202,14 +191,13 @@
     </div>
 
      <div class="row">
-        <div class="container-fluid" style="padding-right: 0px;
+        <div class="container-fluid" style="margin-top: 95px;padding-right: 0px;
     padding-left: 0px;">
             <!-- <div class="row" style="margin-top: -21px;">-->
             <div id="footerRights" style="margin-top: 95px;background-color: #e7e7e7;">
                 <ul class="site-footer-links">
                     <li>© 2017 <span
-                            title="0.03129s from github-fe122-cp1-prd.iad.github.net">Data Analyzer</span>,
-                        com.
+                            title="0.03129s from github-fe122-cp1-prd.iad.github.net">ANALYSIS DRIVEN CUSTOMER JOURNEY</span>
                     </li>
                     <li><a href="#!/">Home</a></li>
                     <li><a href="#!/warrenty">Customer Loyality Analysis</a></li>

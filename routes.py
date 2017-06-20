@@ -4,7 +4,7 @@ from flask import flash
 from flask import current_app
 from flask import abort
 
-from middleware import candidate_by_id
+from middleware import candidate_by_id, sentiment, sentimentgraph, ployaltygraph, painpointgraph, setpainpoint,sentimentreviw
 from middleware import candidate
 from middleware import add_candidate
 from middleware import candidate_update_name
@@ -30,6 +30,13 @@ def init_api_routes(app):
                          methods=['GET'])
         app.add_url_rule('/api/project', 'add_project', add_project, methods=['POST'])
         app.add_url_rule('/api', 'list_routes', list_routes, methods=['GET'], defaults={'app': app})
+        app.add_url_rule('/api/sareviews', 'sentiment', sentiment, methods=['GET'])
+        app.add_url_rule('/api/sentimentgraph', 'sentimentgraph', sentimentgraph, methods=['GET'])
+        app.add_url_rule('/api/painpointgraph', 'painpointgraph', painpointgraph, methods=['GET'])
+        app.add_url_rule('/api/ployaltygraph', 'ployaltygraph', ployaltygraph, methods=['GET'])
+        app.add_url_rule('/api/setpainpoint', 'setpainpoint', setpainpoint, methods=['GET'])
+        app.add_url_rule('/api/sentimentreviw', 'sentimentreviw', sentimentreviw, methods=['POST'])
+
 
 
 

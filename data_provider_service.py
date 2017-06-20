@@ -1,9 +1,20 @@
-from candidate import Candidate
-from project import Project
-from experience import Experience
-from datagenerator import DataGenerator
-
 import datetime
+import imp
+import csv
+import json
+
+from candidate import Candidate
+from datagenerator import DataGenerator
+from project import Project
+
+
+
+
+
+
+model = imp.load_source('process_svm','/Users/heshanjayasinghe/Documents/finalYearProject/fypproject/CustomerJourneyAnalyser/svm/code/Sentiment_svm.py')
+model2 = imp.load_source('process_svm','/Users/heshanjayasinghe/Documents/finalYearProject/fypproject/CustomerJourneyAnalyser/svm/code/desitiontress.py')
+model3 = imp.load_source('process_svm','/Users/heshanjayasinghe/Documents/finalYearProject/fypproject/CustomerJourneyAnalyser/svm/code/RandomForest3.py')
 
 
 class DataProviderService:
@@ -13,6 +24,105 @@ class DataProviderService:
 
     def get_candidates(self):
         return self.CANDIDATES
+
+    def get_sentimentreviw(self,review):
+        result = model.process_svm([review])
+        return result
+
+
+    def get_review(self):
+        with open("reviews.tsv") as csvfile:
+            writingfile = open('sentiment.csv', 'w')
+            readCSV = csv.reader(csvfile, delimiter=",")
+            for line in readCSV:
+                result = model.process_svm(line[2:3])
+                # print (line[0:1])
+                # print (result[1])
+                # print (result[0])
+                # print (line[3:4])
+                # print(line[2:3][0])
+                writingfile.write('%s,' % line[0:1][0])
+                writingfile.write('%s,' % result[1])
+                writingfile.write('%s,' % result[0])
+                writingfile.write('%s,' % line[3:4][0])
+                writingfile.write('%s' % line[2:3][0])
+                writingfile.write('\n')
+            writingfile.close()
+        review = "done";
+
+        return review
+
+    def set_painpoint(self):
+        with open("loyal_feature.csv") as csvfile:
+            writingfilepain = open('painpoint.csv', 'w')
+            writingfileloyal = open('ployalty.csv', 'w')
+            readCSV = csv.reader(csvfile, delimiter=",")
+            for line in readCSV:
+
+                if line[1:2][0] == '1.0':
+                    my_list1 = [line[2:3][0], line[3:4][0]]
+                    result = model2.dtree_predict(my_list1)
+                    writingfileloyal.write('%s,' % line[0:1][0])
+                    writingfileloyal.write('%s,' % result[0])
+                    writingfileloyal.write('%s' % line[6:7][0])
+                    writingfileloyal.write('\n')
+                if line[1:2][0] =='0.0':
+                    my_list1 = [float(line[2:3][0])*-1, line[3:4][0]]
+                    result = model2.dtree_predict(my_list1)
+                    writingfilepain.write('%s,' % line[0:1][0])
+                    writingfilepain.write('%s,' % str(float(result[0])))
+                    writingfilepain.write('%s' % line[6:7][0])
+                    writingfilepain.write('\n')
+            writingfileloyal.close()
+            writingfilepain.close()
+        return "done"
+
+
+    def get_sentimentprapgdata(self):
+        with open("sentiment.csv") as csvfile:
+           # writingfile = open('sentiment.csv', 'w')
+            readCSV = csv.reader(csvfile, delimiter=",")
+            data = []
+            for line in readCSV:
+                entry = {'product_id': line[1:2][0], 'date': line[0:1][0],'download': line[2:3][0]}
+                data.append(entry)
+                json.dumps(data)
+
+            print (data)
+
+        return data
+
+    def get_painpointgraphdata(self):
+        with open("painpoint.csv") as csvfile:
+            # writingfile = open('sentiment.csv', 'w')
+            readCSV = csv.reader(csvfile, delimiter=",")
+            data = []
+            for line in readCSV:
+                entry = {'date': line[0:1][0], 'ppoint': line[1:2][0], 'fdata': line[2:3][0]}
+                data.append(entry)
+                json.dumps(data)
+
+            print (data)
+
+        return data
+
+    def get_ployaltygraphdata(self):
+        with open("ployalty.csv") as csvfile:
+             # writingfile = open('sentiment.csv', 'w')
+            readCSV = csv.reader(csvfile, delimiter=",")
+            data = []
+            for line in readCSV:
+                entry = {'date': line[0:1][0], 'ppoint': line[1:2][0], 'fdata': line[2:3][0]}
+                data.append(entry)
+                json.dumps(data)
+
+            print (data)
+
+        return data
+
+
+
+
 
     def get_candidate(self, id):
         result = None
